@@ -1,0 +1,22 @@
+.right {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.right h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    column-gap: 20px;
+}

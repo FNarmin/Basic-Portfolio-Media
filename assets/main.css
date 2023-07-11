@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media (max-width: 992px) {
+    .main {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    }
